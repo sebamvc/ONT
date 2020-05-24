@@ -120,6 +120,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\ComprobarAlumnosProfesorController.cs" />
     <Compile Include="Controllers\ContactoController.cs" />
     <Compile Include="Controllers\FormularioPagoController.cs" />
     <Compile Include="Controllers\GaleriaController.cs" />
@@ -143,6 +144,7 @@
     <Content Include="Css\bootstrap-reboot.min.css" />
     <Content Include="Css\bootstrap.css" />
     <Content Include="Css\bootstrap.min.css" />
+    <Content Include="Css\ComprobarAlumnosProfesor.css" />
     <Content Include="Css\Contacto.css" />
     <Content Include="Css\fontello-codes.css" />
     <Content Include="Css\fontello-embedded.css" />
@@ -2002,6 +2004,7 @@
     <Content Include="Views\PaginaPrincipal\Index.cshtml" />
     <Content Include="Views\Contacto\Index.cshtml" />
     <Content Include="Views\Galeria\Index.cshtml" />
+    <Content Include="Views\ComprobarAlumnosProfesor\Index.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -2628,16 +2628,7 @@
 }
 
 /* ------------------------------------ */
-.flex-c-m {
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: flex;
-	justify-content: center;
-	-ms-align-items: center;
-	align-items: center;
-}
+
 
 .flex-c-t {
 	display: -webkit-box;

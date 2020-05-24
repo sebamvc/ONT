@@ -50,7 +50,10 @@ namespace ITF
                       "~/Login/vendor/select2/select2.min.css",
                       "~/Login/vendor/daterangepicker/daterangepicker.css",
                       "~/Login/css/util.css",
-                      "~/Login/css/main.css"
+                      "~/Login/css/main.css",
+                      "~/fontawesome-free-5.13.0-web/css/fontawesome.css",
+                      "~/fontawesome-free-5.13.0-web/css/brands.css",
+                      "~/fontawesome-free-5.13.0-web/css/solid.css"
                       ));
 
             bundles.Add(new StyleBundle("~/bundles/jsLogin").Include(
