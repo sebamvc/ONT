@@ -419,7 +419,6 @@ C:\Users\Sebas\Downloads\Desarrollo del Software FECHITAT\ITF\ITF\bin\es\System.
 C:\Users\Sebas\Downloads\Desarrollo del Software FECHITAT\ITF\ITF\bin\es\System.Web.WebPages.resources.dll
 C:\Users\Sebas\Downloads\Desarrollo del Software FECHITAT\ITF\ITF\bin\es\System.Web.WebPages.Deployment.resources.dll
 C:\Users\Sebas\Downloads\Desarrollo del Software FECHITAT\ITF\ITF\bin\es\System.Web.WebPages.Razor.resources.dll
-C:\Users\Sebas\Downloads\Desarrollo del Software FECHITAT\ITF\ITF\obj\Debug\ITF.csprojResolveAssemblyReference.cache
 C:\Users\Sebas\Downloads\Desarrollo del Software FECHITAT\ITF\ITF\obj\Debug\ITF.dll
 C:\Users\Sebas\Downloads\Desarrollo del Software FECHITAT\ITF\ITF\obj\Debug\ITF.pdb
 C:\Users\diego\Documents\ITF\ITF\bin\ITF.dll.config
@@ -508,3 +507,4 @@ C:\Users\diego\Documents\ITF\ITF\obj\Debug\ITF.csproj.CoreCompileInputs.cache
 C:\Users\diego\Documents\ITF\ITF\obj\Debug\ITF.csproj.CopyComplete
 C:\Users\diego\Documents\ITF\ITF\obj\Debug\ITF.dll
 C:\Users\diego\Documents\ITF\ITF\obj\Debug\ITF.pdb
+C:\Users\Sebas\Downloads\Desarrollo del Software FECHITAT\ITF\ITF\obj\Debug\ITF.csprojResolveAssemblyReference.cache
