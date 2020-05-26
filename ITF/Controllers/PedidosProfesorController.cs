@@ -6,12 +6,12 @@ using System.Web.Mvc;
 
 namespace ITF.Controllers
 {
-    public class HomeController : Controller
+    public class PedidosProfesorController : Controller
     {
+        // GET: PedidosProfesor
         public ActionResult Index()
         {
             return View();
         }
-
     }
 }

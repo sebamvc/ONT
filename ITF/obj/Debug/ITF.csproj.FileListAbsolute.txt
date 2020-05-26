@@ -507,6 +507,4 @@ C:\Users\diego\Documents\ITF\ITF\obj\Debug\ITF.csproj.CoreCompileInputs.cache
 C:\Users\diego\Documents\ITF\ITF\obj\Debug\ITF.csproj.CopyComplete
 C:\Users\diego\Documents\ITF\ITF\obj\Debug\ITF.dll
 C:\Users\diego\Documents\ITF\ITF\obj\Debug\ITF.pdb
-C:\Users\Sebas\Downloads\Desarrollo del Software FECHITAT\ITF\ITF\obj\Debug\ITF.csprojAssemblyReference.cache
-C:\Users\Sebas\Downloads\Desarrollo del Software FECHITAT\ITF\ITF\obj\Debug\ITF.csproj.CoreCompileInputs.cache
-C:\Users\Sebas\Downloads\Desarrollo del Software FECHITAT\ITF\ITF\obj\Debug\ITF.csproj.CopyComplete
+C:\Users\Sebas\Downloads\Desarrollo del Software FECHITAT\ITF\ITF\obj\Debug\ITF.csprojResolveAssemblyReference.cache

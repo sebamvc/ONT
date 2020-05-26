@@ -126,8 +126,11 @@
     <Compile Include="Controllers\GaleriaController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
-    <Compile Include="Controllers\PaginaPrincipalController.cs" />
+    <Compile Include="Controllers\MisAlumnosController.cs" />
+    <Compile Include="Controllers\PedidosProfesorController.cs" />
     <Compile Include="Controllers\TiendaVistaAlumnoController.cs" />
+    <Compile Include="Controllers\TiendaVistaProfesorController.cs" />
+    <Compile Include="Controllers\TorneoInternoProfesorController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -154,6 +157,7 @@
     <Content Include="Css\fontello.css" />
     <Content Include="Css\Galeria.css" />
     <Content Include="Css\PaginaPrincipal.css" />
+    <Content Include="Css\TiendaVistaAlumno.css" />
     <Content Include="favicon.ico" />
     <Content Include="fontawesome-free-5.13.0-web\css\all.css" />
     <Content Include="fontawesome-free-5.13.0-web\css\all.min.css" />
@@ -1923,8 +1927,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Login\Index.cshtml" />
     <Content Include="Views\FormularioPago\Index.cshtml" />
@@ -1932,7 +1934,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\TiendaVistaAlumno\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -2005,10 +2006,14 @@
     <Content Include="Login\vendor\bootstrap\css\bootstrap.css.map" />
     <Content Include="Login\vendor\bootstrap\css\bootstrap.min.css.map" />
     <None Include="packages.config" />
-    <Content Include="Views\PaginaPrincipal\Index.cshtml" />
     <Content Include="Views\Contacto\Index.cshtml" />
     <Content Include="Views\Galeria\Index.cshtml" />
     <Content Include="Views\ComprobarAlumnosProfesor\Index.cshtml" />
+    <Content Include="Views\MisAlumnos\Index.cshtml" />
+    <Content Include="Views\PedidosProfesor\Index.cshtml" />
+    <Content Include="Views\TiendaVistaAlumno\Index.cshtml" />
+    <Content Include="Views\TorneoInternoProfesor\Index.cshtml" />
+    <Content Include="Views\TiendaVistaProfesor\Index.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
