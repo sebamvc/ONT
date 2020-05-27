@@ -140,8 +140,8 @@
     <Compile Include="Controllers\PublicarEventoController.cs" />
     <Compile Include="Controllers\ReglamentoController.cs" />
     <Compile Include="Controllers\TiendaVistaAlumnoController.cs" />
-    <Compile Include="Controllers\TiendaVistaProfesorController.cs" />
-    <Compile Include="Controllers\TorneoInternoProfesorController.cs" />
+    <Compile Include="Controllers\TiendaVistaMaestroController.cs" />
+    <Compile Include="Controllers\TorneoInternoMaestroController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -171,7 +171,8 @@
     <Content Include="Css\FormularioInscripcionAlumno.css" />
     <Content Include="Css\Galeria.css" />
     <Content Include="Css\PaginaPrincipal.css" />
-    <Content Include="Css\TiendaVistaAlumno.css" />
+    <Content Include="Css\TiendaAlumno.css" />
+    <Content Include="Css\TiendaMaestro.css" />
     <Content Include="favicon.ico" />
     <Content Include="fontawesome-free-5.13.0-web\css\all.css" />
     <Content Include="fontawesome-free-5.13.0-web\css\all.min.css" />
@@ -2035,8 +2036,6 @@
     <Content Include="Views\MisAlumnos\Index.cshtml" />
     <Content Include="Views\PedidosProfesor\Index.cshtml" />
     <Content Include="Views\TiendaVistaAlumno\Index.cshtml" />
-    <Content Include="Views\TorneoInternoProfesor\Index.cshtml" />
-    <Content Include="Views\TiendaVistaProfesor\Index.cshtml" />
     <Content Include="Views\Academias\index.cshtml" />
     <Content Include="Views\Examenes\index.cshtml" />
     <Content Include="Views\FormularioAlumnoNuevo\index.cshtml" />
@@ -2048,7 +2047,8 @@
     <Content Include="Views\ProgresionAlumnoFuncionario\index.cshtml" />
     <Content Include="Views\PublicarEvento\index.cshtml" />
     <Content Include="Views\Reglamento\index.cshtml" />
-    <Content Include="Views\Academias\index2.cshtml" />
+    <Content Include="Views\TiendaVistaMaestro\index.cshtml" />
+    <Content Include="Views\TorneoInternoMaestro\index.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

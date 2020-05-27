@@ -1,0 +1,177 @@
+﻿
+@{
+    Layout = null;
+    ViewBag.Title = "Index";
+}
+
+
+@Styles.Render("~/Content/css")
+<link rel="stylesheet" href="~/Css/TiendaMaestro.css">
+
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainnav" style="background-color:black">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#contact" style="color:white">ONT <i class="fas fa-globe-americas"></i></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarresponsive" aria-controls="navbarresponsive"
+                        aria-expanded="false" aria-label="toggle navigation">
+                    <span class="navbar-toggler-icon">
+                    </span> <span class="badge badge-pill badge-info">Menú</span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarresponsive">
+                    <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link text-white" href="#about">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#">Mis Alumnos</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#event">Mis Productos</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#">Pedidos</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#">Torneos Internos</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#">Mensualidades</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+
+    </header>
+
+    <main>
+        <div class="container" style="width:800px;">
+            <h2 class="titulo" align="center" style="margin-top:10%">Articulos de Combate</h2>
+
+
+            <div class="col-md-3">
+                <form method="post" action="">
+                    <div class="thumbnail">
+                        <img src="" class="img-responsive" />
+                        <div class="caption">
+                            <h4 class="text-info text-center"></h4>
+                            <h4 class="text-danger text-center"></h4>
+                            <input type="text" name="quantity" class="form-control" value="1" />
+                            <p class='text-center'>
+                                <input type="submit" name="add_to_cart" class="btn btn-success " value="Agregar al carro" />
+                            </p>
+
+                            <input type="hidden" name="hidden_name" value="" />
+                            <input type="hidden" name="hidden_price" value="" />
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-md-3">
+                <form method="post" action="">
+                    <div class="thumbnail">
+                        <img src="" class="img-responsive" />
+                        <div class="caption">
+                            <h4 class="text-info text-center"></h4>
+                            <h4 class="text-danger text-center"></h4>
+                            <input type="text" name="quantity" class="form-control" value="1" />
+                            <p class='text-center'>
+                                <input type="submit" name="add_to_cart" class="btn btn-success " value="Agregar al carro" />
+                            </p>
+
+                            <input type="hidden" name="hidden_name" value="" />
+                            <input type="hidden" name="hidden_price" value="" />
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-md-3">
+                <form method="post" action="">
+                    <div class="thumbnail">
+                        <img src="" class="img-responsive" />
+                        <div class="caption">
+                            <h4 class="text-info text-center"></h4>
+                            <h4 class="text-danger text-center"></h4>
+                            <input type="text" name="quantity" class="form-control" value="1" />
+                            <p class='text-center'>
+                                <input type="submit" name="add_to_cart" class="btn btn-success " value="Agregar al carro" />
+                            </p>
+
+                            <input type="hidden" name="hidden_name" value="" />
+                            <input type="hidden" name="hidden_price" value="" />
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-md-3">
+                <form method="post" action="">
+                    <div class="thumbnail">
+                        <img src="" class="img-responsive" />
+                        <div class="caption">
+                            <h4 class="text-info text-center"></h4>
+                            <h4 class="text-danger text-center"></h4>
+                            <input type="text" name="quantity" class="form-control" value="1" />
+                            <p class='text-center'>
+                                <input type="submit" name="add_to_cart" class="btn btn-success " value="Agregar al carro" />
+                            </p>
+
+                            <input type="hidden" name="hidden_name" value="" />
+                            <input type="hidden" name="hidden_price" value="" />
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+
+
+
+            <div style="clear:both"></div>
+            <h3>Detalle de la orden</h3>
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <tr>
+                        <th width="40%">Descripción</th>
+                        <th width="10%" class='text-center'>Cantidad</th>
+                        <th width="20%" class='text-right'>Precio</th>
+                        <th width="15%" class='text-right'>Total</th>
+                        <th width="5%"></th>
+                    </tr>
+
+                    <tr>
+                        <td class='text-center'></td>
+                        <td class='text-right'></td>
+                        <td class='text-right'></td>
+                        <td><a href="index.php?action=delete&id="><span class="text-danger">Eliminar</span></a></td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="3" align="right">Total</td>
+                        <td align="right"></td>
+                        <td></td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+     </main>
+            
+
+    <footer>
+
+        <div class="container">
+            <div class="row redes-sociales justify-content-center">
+                <div class="col-auto">
+                    <i class="fab fa-twitter fa-circle fa-5x icono twitter"></i>
+                    <i class="fab fa-instagram fa-circle fa-5x icono instagram"></i>
+                    <i class="fab fa-facebook fa-circle fa-5x icono facebook"></i>
+                    <i class="fab fa-youtube fa-circle fa-5x icono youtube"></i>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <!-- CTRL + UK Alinea todo-->
+    @Scripts.Render("~/Bundles/js")
+
+    @*<script src="~/js/jquery-3.4.1.min.js"></script>
+        <script src="~/js/bootstrap.min.js"></script>
+        <script src="~/js/scripts.js"></script>
+        <script src="~/js/popper.min.js"></script>*@
+</body>

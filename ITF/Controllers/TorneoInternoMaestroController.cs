@@ -6,9 +6,9 @@ using System.Web.Mvc;
 
 namespace ITF.Controllers
 {
-    public class TorneoInternoProfesorController : Controller
+    public class TorneoInternoMaestroController : Controller
     {
-        // GET: TorneoInternoProfesor
+        // GET: TorneoInternoMaestro
         public ActionResult Index()
         {
             return View();
