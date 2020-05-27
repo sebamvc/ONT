@@ -90,7 +90,7 @@ namespace ITF
                 "~/listar/css/style.css"
 
                 ));
-            // css y js PublicarEvento
+            // css y js Publicar
             bundles.Add(new StyleBundle("~/Content/csspublicar").Include(
                 "~/listar/css/style3.css"
                 ));
