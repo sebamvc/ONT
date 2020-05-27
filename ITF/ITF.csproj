@@ -120,14 +120,25 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AcademiasController.cs" />
     <Compile Include="Controllers\ComprobarAlumnosProfesorController.cs" />
     <Compile Include="Controllers\ContactoController.cs" />
+    <Compile Include="Controllers\ExamenesController.cs" />
+    <Compile Include="Controllers\FormularioAlumnoNuevoController.cs" />
+    <Compile Include="Controllers\FormularioCrearEventoFuncionarioController.cs" />
+    <Compile Include="Controllers\FormularioInscripcionAlumnoController.cs" />
     <Compile Include="Controllers\FormularioPagoController.cs" />
     <Compile Include="Controllers\GaleriaController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ListaTorneosAlumnoController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\MensualidadesController.cs" />
     <Compile Include="Controllers\MisAlumnosController.cs" />
     <Compile Include="Controllers\PedidosProfesorController.cs" />
+    <Compile Include="Controllers\ProgresionAlumnoController.cs" />
+    <Compile Include="Controllers\ProgresionAlumnoFuncionarioController.cs" />
+    <Compile Include="Controllers\PublicarEventoController.cs" />
+    <Compile Include="Controllers\ReglamentoController.cs" />
     <Compile Include="Controllers\TiendaVistaAlumnoController.cs" />
     <Compile Include="Controllers\TiendaVistaProfesorController.cs" />
     <Compile Include="Controllers\TorneoInternoProfesorController.cs" />
@@ -141,6 +152,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Css\Academias.css" />
     <Content Include="Css\animation.css" />
     <Content Include="Css\bootstrap-grid.css" />
     <Content Include="Css\bootstrap-grid.min.css" />
@@ -155,6 +167,8 @@
     <Content Include="Css\fontello-ie7-codes.css" />
     <Content Include="Css\fontello-ie7.css" />
     <Content Include="Css\fontello.css" />
+    <Content Include="Css\FormularioEvento.css" />
+    <Content Include="Css\FormularioInscripcionAlumno.css" />
     <Content Include="Css\Galeria.css" />
     <Content Include="Css\PaginaPrincipal.css" />
     <Content Include="Css\TiendaVistaAlumno.css" />
@@ -1788,7 +1802,14 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="img\academia1.jpg" />
+    <Content Include="img\academia2.jpg" />
+    <Content Include="img\academia3.jpg" />
+    <Content Include="img\academia4.jpg" />
+    <Content Include="img\academia5.jpg" />
+    <Content Include="img\academia6.jpg" />
     <Content Include="img\foto.jpg" />
+    <Content Include="img\imagen-prueba.jpg" />
     <Content Include="img\img-1.jpg" />
     <Content Include="img\img-2.jpg" />
     <Content Include="img\img-3.jpg" />
@@ -1933,6 +1954,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="formulario\" />
+    <Folder Include="Listar\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
@@ -2014,6 +2037,17 @@
     <Content Include="Views\TiendaVistaAlumno\Index.cshtml" />
     <Content Include="Views\TorneoInternoProfesor\Index.cshtml" />
     <Content Include="Views\TiendaVistaProfesor\Index.cshtml" />
+    <Content Include="Views\Academias\index.cshtml" />
+    <Content Include="Views\Examenes\index.cshtml" />
+    <Content Include="Views\FormularioAlumnoNuevo\index.cshtml" />
+    <Content Include="Views\FormularioCrearEventoFuncionario\index.cshtml" />
+    <Content Include="Views\FormularioInscripcionAlumno\index.cshtml" />
+    <Content Include="Views\ListaTorneosAlumno\index.cshtml" />
+    <Content Include="Views\Mensualidades\index.cshtml" />
+    <Content Include="Views\ProgresionAlumno\index.cshtml" />
+    <Content Include="Views\ProgresionAlumnoFuncionario\index.cshtml" />
+    <Content Include="Views\PublicarEvento\index.cshtml" />
+    <Content Include="Views\Reglamento\index.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -66,6 +66,43 @@ namespace ITF
                 "~/Login/vendor/daterangepicker/daterangepicker.js",
                 "~/Login/js/main.js"
                 ));
+
+
+            // js y css formulario
+            bundles.Add(new StyleBundle("~/Content/cssformulario").Include(
+                "~/formulario/vendor/mdi-font/css/material-design-iconic-font.min.css",
+                "~/formulario/vendor/font-awesome-4.7/css/font-awesome.min.css",
+                "~/formulario/vendor/select2/select2.min.css",
+                "~/formulario/vendor/datepicker/daterangepicker.css",
+                "~/formulario/css/main.css"
+
+                ));
+
+            bundles.Add(new StyleBundle("~/bundles/jsformulario").Include(
+                 "~/formulario/vendor/jquery/jquery.min.js",
+                 "~/formulario/vendor/select2/select2.min.js",
+                 "~/formulario/vendor/datepicker/moment.min.js",
+                 "~/formulario/vendor/jquery/daterangepicker.js",
+                 "~/formulario/js/global.js"
+                ));
+            // css listarTorneos
+            bundles.Add(new StyleBundle("~/Content/csslistartorneos").Include(
+                "~/listar/css/style.css"
+
+                ));
+            // css y js listarTorneos
+            bundles.Add(new StyleBundle("~/Content/csspublicarevento").Include(
+                "~/listar/css/style2.css"
+                ));
+            bundles.Add(new StyleBundle("~/bundles/jspublicarevento").Include(
+                "~/listar/js/scripts.js"
+               ));
+
+            // css y js Academias
+            bundles.Add(new StyleBundle("~/Content/cssacademia").Include(
+                "~/css/Academias.css"
+                ));
+
         }
     }
 }
