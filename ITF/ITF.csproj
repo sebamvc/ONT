@@ -2048,6 +2048,7 @@
     <Content Include="Views\ProgresionAlumnoFuncionario\index.cshtml" />
     <Content Include="Views\PublicarEvento\index.cshtml" />
     <Content Include="Views\Reglamento\index.cshtml" />
+    <Content Include="Views\Academias\index2.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
