@@ -32,7 +32,11 @@
         font-size: 18px;
         letter-spacing: 2px;
 }
-
+.image-holder .imagen {
+    max-width: 50%;
+    width: 50%;
+    height: auto;
+}
 
 .image-holder img {
     max-width: 100%;

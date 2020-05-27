@@ -1,27 +1,39 @@
-@font-face {
-  font-family: "Poppins-Regular";
-  src: url("../fonts/poppins/Poppins-Regular.ttf"); }
-@font-face {
-  font-family: "Poppins-SemiBold";
-  src: url("../fonts/poppins/Poppins-SemiBold.ttf"); }
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
 
-
-
-p, h1, h2, h3, h4, h5, h6, ul {
-  margin: 0; 
-}
 .titulo {
     border-top: 5px solid #000000;
     border-bottom: 5px solid #000000;
 }
-   .titulo h2 {
-        text-align:center;
-    }
+.titulo h2 {
+    text-align:center;
+   }
+.admi {
+    padding: 30px;
+    margin-bottom: 40px;
+}
+.admi .icono {
+    text-align: center;
+}
+.admi .icono .fas {
+    width: 90px;
+    height: 140px;
+    font-size: 100px;
+    line-height: 150px;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    margin: 0px 30px ;
+    text-decoration: none;
+    transition: all .3s ease;
+    border-radius: 10px;
+}
 
+.admi .icono .fas:hover {
+            background: #63abeb;
+        }
+.admi .icono .nombre {
+        font-size: 18px;
+        
+}
 .image-holder img {
     max-width: 100%;
     width:100%;
@@ -181,3 +193,5 @@ select {
 
   button {
     margin-top: 60px; } }
+
+
