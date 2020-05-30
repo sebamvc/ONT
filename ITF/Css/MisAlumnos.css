@@ -4,10 +4,8 @@ body{
     font-family: 'Cooper Black';
 }
 
-
-
 .imglog{
-    border: solid 8px #1B3280 !important;
+    border: solid 8px black !important;
     margin-top: 8%;
 }
 
@@ -61,23 +59,13 @@ header .menu .c-2:hover { background: #0B0B3B; }
 header .menu .c-3:hover { background: #002d44; }
 
 
-/* --- SLIDER --- */
-.slider {
-	margin-bottom: 40px;
-}
-
-.slider .col {
-	padding: 0;
-}
-
 
 /* --- PORTAFOLIO --- */
-..portafolio {
+.portafolio {
 	background: #fff;
 	border-top: 5px solid #1B3280;
-	padding: 0 20px;
+    border-bottom: 5px solid #1B3280;
 }
-
 
 .portafolio .titulo {
 	padding: 40px 0;
@@ -86,34 +74,6 @@ header .menu .c-3:hover { background: #002d44; }
 	font-family: 'Cooper Black', sans-serif;
 	font-weight: 300;
 }
-
-
-
-.portafolio .galeria .contenedor-imagenlogo {
-	margin-bottom: 40px;
-	max-height: 180px; /* Para que todas las imagenes tengan una altura de 180 como maximo asi las nivela*/
-	overflow: hidden; /*El contenido que sobre lo oculta*/
-}
-
-.portafolio .galeria .contenedor-imagen a {
-	background: #3da5e2;
-	display: inline-block; /* para colocar las cajas en horizontal respetando el ancho y largo que le defini antes*/
-}
-
-.portafolio .galeria .contenedor-imagen:hover img {
-	opacity: .3;  /*Reducir la opacidad al estar en estado hover*/
-}
-
-.portafolio .modal-dialog {  /*Para que se adapte la imagen al apretarla y modificamos la clase modal*/
-	margin: 0px auto;
-	height: 100%;
-	max-width: 1000px;
-}
-
-.portafolio .modal-content {
-	width: auto;
-}
-
 
 /* --- FOOTER --- */
 .redes-sociales {
@@ -219,11 +179,6 @@ header .menu .c-3:hover { background: #002d44; }
 		font-size: 12px;       /*Si esta mas pequeño el tamaño de texto va a ser mas pequeño igual*/
 	}
 }
-
-
-
-
-
 
 
 

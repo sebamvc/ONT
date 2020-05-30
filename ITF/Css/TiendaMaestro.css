@@ -5,7 +5,7 @@ body{
 }
 
 .imglog{
-    border: solid 8px black !important;
+    border: solid 8px #1B3280 !important;
     margin-top: 8%;
 }
 
@@ -70,25 +70,22 @@ header .menu .c-3:hover { background: #002d44; }
 
 
 /* --- PORTAFOLIO --- */
-.portafolio {
+..portafolio {
 	background: #fff;
-	border-top: 5px solid #3da5e2;
+	border-top: 5px solid #1B3280;
 	padding: 0 20px;
 }
+
 
 .portafolio .titulo {
 	padding: 40px 0;
 	text-align: center;
-	color: #3da5e2;
+	color: #1B3280;
 	font-family: 'Cooper Black', sans-serif;
 	font-weight: 300;
 }
 
-.portafolio .galeria .contenedor-imagen {
-	margin-bottom: 40px;
-	max-height: 180px; /* Para que todas las imagenes tengan una altura de 180 como maximo asi las nivela*/
-	overflow: hidden; /*El contenido que sobre lo oculta*/
-}
+
 
 .portafolio .galeria .contenedor-imagenlogo {
 	margin-bottom: 40px;
@@ -115,111 +112,6 @@ header .menu .c-3:hover { background: #002d44; }
 	width: auto;
 }
 
-/* --- ACERCA DE --- */
-.acerca-de {					/*Le damos un padding arriba y abajo a la foto para mayor visualizacion*/
-	padding: 30px;
-	margin-bottom: 40px;
-}
-
-.acerca-de .foto {
-	text-align: center;		/*Centramos la foto y el texto*/
-}
-
-.acerca-de .foto img {
-	margin-bottom: 30px;	
-}
-
-.acerca-de .foto .nombre {
-	color: #545454;
-	font-weight: 300;
-	font-size: 18px;
-	letter-spacing: 2px;  /*Espaciado entre cada letra del nombre*/
-}
-
-.acerca-de .info .titulo {
-	color: #005385;
-	font-family: 'Trade Winds', sans-serif;
-	font-weight: 300;
-	font-size: 40px;
-	margin-bottom: 30px;
-}
-
-.acerca-de .info .resumen {
-	letter-spacing: 1px;  /*Espaciado entre el texto*/
-}
-
-.acerca-de .info .label {
-	font-size: 18px;
-	font-weight: 600;
-	color: #005385;
-	margin-bottom: 10px;
-}
-
-.acerca-de .info .progress {
-	background: #005385;
-	border-radius: 0;
-	margin-bottom: 15px;
-	height: 25px;
-}
-
-.acerca-de .info .progress .progress-bar {
-	background: #3da5e2;
-	line-height: 25px;	/*Centrar el texto sin flexbox*/
-	text-align: left;
-	padding-left: 20px;
-}
-
-/* --- CONTACTO --- */
-.contacto {
-	padding: 40px 0; 
-	border-top: 1px solid #cbcbcb;
-	border-bottom: 1px solid #cbcbcb;
-	margin-bottom: 40px;
-}
-
-.contacto .titulo {
-	color: #003855;
-	font-family: 'Trade Winds', sans-serif;
-	font-weight: 300;
-	font-size: 40px;
-	margin-bottom: 40px;
-	text-align: center;
-}
-
-.contacto .form-group {
-	margin-bottom: 0;
-}
-
-.formulario input[type="text"],
-.formulario input[type="email"],
-.formulario textarea {
-	padding: 15px;
-	border: none;
-	width: 100%;
-	font-family: 'Trade Winds', sans-serif;
-	margin-bottom: 30px;
-}
-
-.formulario textarea {
-	height: 150px;
-	min-height: 150px;
-	max-height: 250px;
-}
-
-.formulario .boton {
-	background: #3da5e2;
-	border: none;
-	padding: 7px 30px;
-	color: #fff;
-	font-family: 'Trade Winds', sans-serif;
-	cursor: pointer; 					/*Cambia el puntero para darle un mejor estilo*/
-	width: auto;
-	border-radius: 3px;
-}
-
-.formulario .boton:hover {
-	background: #1BA0EF;
-}
 
 /* --- FOOTER --- */
 .redes-sociales {
@@ -325,8 +217,4 @@ header .menu .c-3:hover { background: #002d44; }
 		font-size: 12px;       /*Si esta mas pequeño el tamaño de texto va a ser mas pequeño igual*/
 	}
 }
-
-
-
-
 

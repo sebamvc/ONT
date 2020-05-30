@@ -12,7 +12,7 @@
 
 
     @Styles.Render("~/Content/cssformulario")
-    @Styles.Render("~/Content/csspublicarEvento")
+    @Styles.Render("~/Content/csspublicar")
     @Styles.Render("~/Content/css")
     @Styles.Render("~/Content/js")
 
@@ -67,7 +67,7 @@
     <main>
         <div class="titulo col-7 mx-auto "><h2>Administrar Eventos</h2></div>
 
-        <div class="row col-4 mx-auto admi align-items-center">
+        <div class="row col-4 mx-auto admi justify-content-center">
             <div class="icono">
                 <i class="fas fa-file-image " onclick="document.getElementById('afiche').click()"></i>
                 <input type='file' id="afiche" style="display:none">
@@ -86,7 +86,7 @@
         <div class="wrapper">
             <div class="inner">
                 <div class="image-holder">
-                    <img src="~/img/imagen-prueba.jpg" alt="">
+                    <img src="~/img/imagen-prueba.jpg" class="imagen" alt="">
                 </div>
                 <form class="formulario" action="">
                     <h3>Datos del Evento</h3>
@@ -119,20 +119,20 @@
                             </div>
                         </div>
                     </div>
-                    <div class="value">
-                        <div class="row row-space mx-auto">
-                            <div>
-                                <button class="boton " type="submit">Inscribirse</button>
-                            </div>
+                    <!--<div class="value">
+                    <div class="row row-space mx-auto">
+                        <div>
+                            <button class="boton " type="submit">Inscribirse</button>
                         </div>
                     </div>
+                </div>-->
                 </form>
             </div>
         </div>
         <div class="wrapper">
             <div class="inner">
                 <div class="image-holder">
-                    <img src="~/img/imagen-prueba.jpg" alt="">
+                    <img src="~/img/imagen-prueba.jpg" class="imagen" alt="">
                 </div>
                 <form class="formulario" action="">
                     <h3>Datos del Evento</h3>
@@ -165,20 +165,20 @@
                             </div>
                         </div>
                     </div>
-                    <div class="value">
+                    <!--<div class="value">
                         <div class="row row-space mx-auto">
                             <div>
                                 <button class="boton " type="submit">Inscribirse</button>
                             </div>
                         </div>
-                    </div>
+                    </div>-->
                 </form>
             </div>
         </div>
         <div class="wrapper">
             <div class="inner">
                 <div class="image-holder">
-                    <img src="~/img/imagen-prueba.jpg" alt="">
+                    <img src="~/img/imagen-prueba.jpg" class="imagen" alt="">
                 </div>
                 <form class="formulario" action="">
                     <h3>Datos del Evento</h3>
@@ -211,33 +211,33 @@
                             </div>
                         </div>
                     </div>
-                    <div class="value">
-                        <div class="row row-space mx-auto">
-                            <div>
-                                <button class="boton " type="submit">Inscribirse</button>
-                            </div>
+                    <!--<div class="value">
+                    <div class="row row-space mx-auto">
+                        <div>
+                            <button class="boton " type="submit">Inscribirse</button>
                         </div>
                     </div>
+                </div>-->
                 </form>
             </div>
         </div>
     </main>
-    <footer>
-        <div class="container">
-            <div class="row redes-sociales justify-content-center">
-                <div class="col-auto">
-                    <i class="fab fa-twitter fa-circle fa-5x icono twitter"></i>
-                    <i class="fab fa-instagram fa-circle fa-5x icono instagram"></i>
-                    <i class="fab fa-facebook fa-circle fa-5x icono facebook"></i>
-                    <i class="fab fa-youtube fa-circle fa-5x icono youtube"></i>
+        <footer>
+            <div class="container">
+                <div class="row redes-sociales justify-content-center">
+                    <div class="col-auto">
+                        <i class="fab fa-twitter fa-circle fa-5x icono twitter"></i>
+                        <i class="fab fa-instagram fa-circle fa-5x icono instagram"></i>
+                        <i class="fab fa-facebook fa-circle fa-5x icono facebook"></i>
+                        <i class="fab fa-youtube fa-circle fa-5x icono youtube"></i>
+                    </div>
                 </div>
+
             </div>
+        </footer>
+        @Scripts.Render("~/Bundles/jspublicarevento")
+        @Scripts.Render("~/bundles/jsformulario")
+        @Scripts.Render("~/Bundles/js")
 
-        </div>
-    </footer>
-    @Scripts.Render("~/Bundles/jspublicarevento")
-    @Scripts.Render("~/bundles/jsformulario")
-    @Scripts.Render("~/Bundles/js")
-
-</body>
-</html>
+    </body>
+    </html>
